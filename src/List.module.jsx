@@ -16,7 +16,13 @@ ListModule.defaultProps = {
 };
 
 ListModule.propTypes = {
-  items: propTypes.array,
+  items: propTypes.arrayOf(
+    propTypes.shape({
+      id: propTypes.number,
+      name: propTypes.string,
+      calories: propTypes.number,
+    })
+  ),
   category: propTypes.string,
 };
 
