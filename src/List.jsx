@@ -12,12 +12,19 @@ function List() {
   fruits.sort((a, b) => a.calories - b.calories); // Numeric sort by calories
   fruits.sort((a, b) => b.calories - a.calories); // Reverse Numeric sort by calories
 
-  const list = fruits.map((fruit) => (
-    <li key={fruit.id}>
-      {fruit.name} &nbsp; <b>{fruit.calories}</b>
+  // const list = fruits.map((fruit) => (
+  //   <li key={fruit.id}>
+  //     {fruit.name} &nbsp; <b>{fruit.calories}</b>
+  //   </li>
+  // ));
+  // return <ol> {list} </ol>;
+
+  const lowcalFruits = fruits.filter((fruit) => fruit.calories < 50);
+  const list = lowcalFruits.map((lowcalFruit) => (
+    <li key={lowcalFruit.id}>
+      {lowcalFruit.name} &nbsp; {lowcalFruit.calories}
     </li>
   ));
-
   return <ol> {list} </ol>;
 }
 export default List;
