@@ -14,3 +14,12 @@
   }
 }
 
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  padding: 5px;
+  border: 1px solid hsl(58, 92%, 55%);
+  width: 50%;
+  text-align: center;
+}
+
