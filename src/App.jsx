@@ -5,12 +5,6 @@ import Card from "./Card"
 function App() {
   return(
     <>
-    {/* 
-    <Header/>
-    <Food/>
-    <Food/>
-    <Footer/> 
-    */}
       <Card/>
     </>
   )
