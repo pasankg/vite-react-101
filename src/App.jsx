@@ -5,7 +5,8 @@
 // import ButtonModule from "./Button/Button"
 // import ButtonInline from "./Button"
 // import Student from "./Student";
-import UserGreeting from "./UserGreeting";
+// import UserGreeting from "./UserGreeting";
+import List from "./List";
 
 function App() {
   // return (
@@ -18,10 +19,17 @@ function App() {
   //     <Student name="Larry" />
   //   </>
   // );
+
+  // return(
+  //   <>
+  //   <UserGreeting isLoggedIn={true} username="pkg"/>
+  //   <UserGreeting/>
+  //   </>
+  // );
+
   return(
     <>
-    <UserGreeting isLoggedIn={true} username="pkg"/>
-    <UserGreeting/>
+      <List/>
     </>
   );
 }
