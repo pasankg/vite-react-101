@@ -12,7 +12,7 @@ function ListModule(props) {
 
 ListModule.defaultProps = {
   items: [{ id: 0, name: "", calories: 0 }],
-  category: "",
+  category: "Category",
 };
 
 ListModule.propTypes = {

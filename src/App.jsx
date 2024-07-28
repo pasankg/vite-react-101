@@ -50,9 +50,13 @@ function App() {
   ]; 
 
   return(
-    <>
-      <ListModule items={fruits} category="Fruits" />
-      <ListModule items={vegetables} category="Vegitables" />
+    <>    
+      {fruits.length > 0 ? <ListModule items={fruits} category="Fruits" /> : null}
+      
+      {/* short circuiting above */}
+      { vegetables.length > 0 && <ListModule items={vegetables} category="Vegitables" /> }
+      
+      <ListModule />
     </>
   );
 }
