@@ -4,18 +4,24 @@
 // import Card from "./Card"
 // import ButtonModule from "./Button/Button"
 // import ButtonInline from "./Button"
-
-import Student from "./Student";
+// import Student from "./Student";
+import UserGreeting from "./UserGreeting";
 
 function App() {
-  return (
+  // return (
+  //   <>
+  //     {/* If the value is not a string, wrap it with {} */}
+  //     <Student name="Spongebob" age={20} isStudent={true} />
+  //     <Student name="Patrick" age={21} isStudent={true} />
+  //     <Student name="Squidward" age={30} isStudent={false} />
+  //     <Student name="Sandy" age={26} isStudent={false} />
+  //     <Student name="Larry" />
+  //   </>
+  // );
+  return(
     <>
-      {/* If the value is not a string, wrap it with {} */}
-      <Student name="Spongebob" age={20} isStudent={true} />
-      <Student name="Patrick" age={21} isStudent={true} />
-      <Student name="Squidward" age={30} isStudent={false} />
-      <Student name="Sandy" age={26} isStudent={false} />
-      <Student name="Larry" />
+    <UserGreeting isLoggedIn={true} username="pkg"/>
+    <UserGreeting/>
     </>
   );
 }
