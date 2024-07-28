@@ -8,7 +8,8 @@
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
 // import ListModule from "./List.module";
-import StatefulButton from "./StatefulButton";
+// import StatefulButton from "./StatefulButton";
+import Counter from "./Counter";
 
 function App() {
   // return (
@@ -67,7 +68,9 @@ function App() {
   //   </>
   // );
 
-  return <StatefulButton/>
+  // return <StatefulButton/>
+
+  return <Counter/>
 
 
 }
