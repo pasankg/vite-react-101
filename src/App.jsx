@@ -12,7 +12,9 @@
 // import Counter from "./Counter";
 // import ApplicationForm from "./ApplicationForm";
 // import ColourPicker from "./ColourPicker";
-import CounterMod from "./CounterMod";
+// import CounterMod from "./CounterMod";
+
+import Car from "./Car";
 
 function App() {
   // return (
@@ -79,7 +81,9 @@ function App() {
 
   // return <ColourPicker/>
 
-  return <CounterMod/>
+  // return <CounterMod/>
+
+  return <Car/>
 
 
 }
