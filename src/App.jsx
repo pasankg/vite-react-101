@@ -9,7 +9,9 @@
 // import List from "./List";
 // import ListModule from "./List.module";
 // import StatefulButton from "./StatefulButton";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+
+import ApplicationForm from "./ApplicationForm";
 
 function App() {
   // return (
@@ -70,7 +72,9 @@ function App() {
 
   // return <StatefulButton/>
 
-  return <Counter/>
+  // return <Counter/>
+
+  return <ApplicationForm/>
 
 
 }
