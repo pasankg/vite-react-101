@@ -10,8 +10,8 @@
 // import ListModule from "./List.module";
 // import StatefulButton from "./StatefulButton";
 // import Counter from "./Counter";
-
-import ApplicationForm from "./ApplicationForm";
+// import ApplicationForm from "./ApplicationForm";
+import ColourPicker from "./ColourPicker";
 
 function App() {
   // return (
@@ -74,7 +74,9 @@ function App() {
 
   // return <Counter/>
 
-  return <ApplicationForm/>
+  // return <ApplicationForm/>
+
+  return <ColourPicker/>
 
 
 }
