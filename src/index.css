@@ -37,7 +37,7 @@ body {
     font-size: 3rem;
   }
 
-  .colour-picker {
+  .colour-display {
     width: 200px;
     height: 200px;
     display: flex;
@@ -46,12 +46,13 @@ body {
     border: 5px solid hsl(60, 9%, 85%);
     border-radius: 25px;
     margin-bottom: 25px;
-    transition: 0.25s ease;
+    transition: 0.5s ease;
   }
 
   .colour-display {
     p {
       text-align: center;
+      font-size: 1.5rem;
     }
   }
 }
