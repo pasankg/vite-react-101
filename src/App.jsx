@@ -11,7 +11,8 @@
 // import StatefulButton from "./StatefulButton";
 // import Counter from "./Counter";
 // import ApplicationForm from "./ApplicationForm";
-import ColourPicker from "./ColourPicker";
+// import ColourPicker from "./ColourPicker";
+import CounterMod from "./CounterMod";
 
 function App() {
   // return (
@@ -76,7 +77,9 @@ function App() {
 
   // return <ApplicationForm/>
 
-  return <ColourPicker/>
+  // return <ColourPicker/>
+
+  return <CounterMod/>
 
 
 }
