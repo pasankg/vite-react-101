@@ -13,8 +13,8 @@
 // import ApplicationForm from "./ApplicationForm";
 // import ColourPicker from "./ColourPicker";
 // import CounterMod from "./CounterMod";
-
-import Car from "./Car";
+// import Car from "./Car";
+import ArrayModification from "./ArrayModification";
 
 function App() {
   // return (
@@ -83,9 +83,9 @@ function App() {
 
   // return <CounterMod/>
 
-  return <Car/>
+  // return <Car/>
 
-
+  return <ArrayModification/>
 }
 
 export default App;
