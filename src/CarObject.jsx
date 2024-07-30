@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-function Car() {
+// Example of updating objects using useState()
+function CarObject() {
   const [car, setCar] = useState({ make: "Volvo", model: "CX90", year: 2024 });
 
   const updateMakeHandler = (e) => {
@@ -32,4 +33,4 @@ function Car() {
     </>
   );
 }
-export default Car;
+export default CarObject;

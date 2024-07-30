@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// Example of updating Arrays using useState()
 function ArrayModification() {
   const [foods, setFood] = useState(["apple", "orange", "banana"]);
 
