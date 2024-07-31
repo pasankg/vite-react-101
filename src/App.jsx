@@ -14,7 +14,9 @@
 // import ColourPicker from "./ColourPicker";
 // import CounterMod from "./CounterMod";
 // import CarObject from "./CarObject";
-import ArrayModification from "./ArrayModification";
+// import ArrayModification from "./ArrayModification";
+
+import ArrayObjectModification from "./ArrayObjectModification";
 
 function App() {
   // return (
@@ -47,22 +49,22 @@ function App() {
   //   { id: 3, name: "mango", calories: 105 },
   //   { id: 4, name: "banana", calories: 159 },
   //   { id: 5, name: "pineapple", calories: 37 },
-  // ]; 
+  // ];
   // const vegetables = [
   //   { id: 1, name: "brocolli", calories: 95 },
   //   { id: 2, name: "carrot", calories: 45 },
   //   { id: 3, name: "pumpkin", calories: 105 },
   //   { id: 4, name: "tomato", calories: 159 },
   //   { id: 5, name: "beatroot", calories: 37 },
-  // ]; 
+  // ];
 
   // return(
-  //   <>    
+  //   <>
   //     {fruits.length > 0 ? <ListModule items={fruits} category="Fruits" /> : null}
-      
+
   //     {/* short circuiting above */}
   //     { vegetables.length > 0 && <ListModule items={vegetables} category="Vegitables" /> }
-      
+
   //     <ListModule />
   //   </>
   // );
@@ -85,7 +87,9 @@ function App() {
 
   // return <CarObject/>
 
-  return <ArrayModification/>
+  // return <ArrayModification/>
+
+  return <ArrayObjectModification />;
 }
 
 export default App;
