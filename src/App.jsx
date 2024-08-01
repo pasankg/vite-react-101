@@ -15,8 +15,8 @@
 // import CounterMod from "./CounterMod";
 // import CarObject from "./CarObject";
 // import ArrayModification from "./ArrayModification";
-
-import ArrayObjectModification from "./ArrayObjectModification";
+// import ArrayObjectModification from "./ArrayObjectModification";
+import TodoList from "./TodoList/TodoList";
 
 function App() {
   // return (
@@ -89,7 +89,9 @@ function App() {
 
   // return <ArrayModification/>
 
-  return <ArrayObjectModification />;
+  // return <ArrayObjectModification />;
+
+  return <TodoList />;
 }
 
 export default App;
