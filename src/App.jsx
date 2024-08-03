@@ -17,8 +17,9 @@
 // import ArrayModification from "./ArrayModification";
 // import ArrayObjectModification from "./ArrayObjectModification";
 // import TodoList from "./TodoList/TodoList";
+// import UseEffectCounter from "./UseEffectCounter";
 
-import UseEffectCounter from "./UseEffectCounter";
+import WindowComponent from "./WindowComponent";
 
 function App() {
   // return (
@@ -95,7 +96,9 @@ function App() {
 
   // return <TodoList />;
 
-  return <UseEffectCounter/>
+  // return <UseEffectCounter/>
+
+  return <WindowComponent/>
 }
 
 export default App;
