@@ -16,7 +16,9 @@
 // import CarObject from "./CarObject";
 // import ArrayModification from "./ArrayModification";
 // import ArrayObjectModification from "./ArrayObjectModification";
-import TodoList from "./TodoList/TodoList";
+// import TodoList from "./TodoList/TodoList";
+
+import UseEffectCounter from "./UseEffectCounter";
 
 function App() {
   // return (
@@ -91,7 +93,9 @@ function App() {
 
   // return <ArrayObjectModification />;
 
-  return <TodoList />;
+  // return <TodoList />;
+
+  return <UseEffectCounter/>
 }
 
 export default App;
