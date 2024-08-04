@@ -20,7 +20,9 @@
 // import UseEffectCounter from "./UseEffectCounter";
 // import WindowComponent from "./WindowComponent";
 // import DigitalClock from "./Clock/DigitalClock";
-import ComponentA from "./ContextExample/ComponentA";
+// import ComponentA from "./ContextExample/ComponentA";
+
+import UseRefExample from "./UseRefExample";
 
 function App() {
   // return (
@@ -103,7 +105,9 @@ function App() {
 
   // return <DigitalClock/>
 
-  return <ComponentA/>
+  // return <ComponentA/>
+
+  return <UseRefExample />;
 }
 
 export default App;

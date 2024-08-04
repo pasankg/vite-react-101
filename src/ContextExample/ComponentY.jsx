@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 // import the context from Component A.
 import { userContext } from "./ComponentA";
 
-function ComponentY(props) {
+function ComponentY() {
 
  const user = useContext(userContext);
  
