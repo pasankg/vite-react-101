@@ -21,8 +21,8 @@
 // import WindowComponent from "./WindowComponent";
 // import DigitalClock from "./Clock/DigitalClock";
 // import ComponentA from "./ContextExample/ComponentA";
-
-import UseRefExample from "./UseRefExample";
+// import UseRefExample from "./UseRefExample";
+import StopWatch from "./StopWatch/StopWatch";
 
 function App() {
   // return (
@@ -107,7 +107,9 @@ function App() {
 
   // return <ComponentA/>
 
-  return <UseRefExample />;
+  // return <UseRefExample />;
+
+  return <StopWatch />;
 }
 
 export default App;
