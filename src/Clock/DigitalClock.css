@@ -1,0 +1,24 @@
+body {
+ background-image: url('./public/6mzjJDqYU0g-unsplash.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+.clock-container {
+ backdrop-filter: blur(5px);
+
+ .clock {
+  font-size: 6rem;
+  font-family: monospace;
+  color: #fff;
+  text-align: center;
+  text-shadow: #00000087 3px 3px 3px
+ }
+}

@@ -18,8 +18,9 @@
 // import ArrayObjectModification from "./ArrayObjectModification";
 // import TodoList from "./TodoList/TodoList";
 // import UseEffectCounter from "./UseEffectCounter";
+// import WindowComponent from "./WindowComponent";
 
-import WindowComponent from "./WindowComponent";
+import DigitalClock from "./Clock/DigitalClock";
 
 function App() {
   // return (
@@ -98,7 +99,9 @@ function App() {
 
   // return <UseEffectCounter/>
 
-  return <WindowComponent/>
+  // return <WindowComponent/>
+
+  return <DigitalClock/>
 }
 
 export default App;
