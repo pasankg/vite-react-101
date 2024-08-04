@@ -19,8 +19,8 @@
 // import TodoList from "./TodoList/TodoList";
 // import UseEffectCounter from "./UseEffectCounter";
 // import WindowComponent from "./WindowComponent";
-
-import DigitalClock from "./Clock/DigitalClock";
+// import DigitalClock from "./Clock/DigitalClock";
+import ComponentA from "./ContextExample/ComponentA";
 
 function App() {
   // return (
@@ -101,7 +101,9 @@ function App() {
 
   // return <WindowComponent/>
 
-  return <DigitalClock/>
+  // return <DigitalClock/>
+
+  return <ComponentA/>
 }
 
 export default App;
