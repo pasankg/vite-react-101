@@ -16,12 +16,12 @@
 // import CarObject from "./CarObject";
 // import ArrayModification from "./ArrayModification";
 // import ArrayObjectModification from "./ArrayObjectModification";
-// import TodoList from "./TodoList/TodoList";
+import TodoList from "./TodoList/TodoList";
 // import UseEffectCounter from "./UseEffectCounter";
 // import WindowComponent from "./WindowComponent";
-// import DigitalClock from "./Clock/DigitalClock";
-// import ComponentA from "./ContextExample/ComponentA";
-// import UseRefExample from "./UseRefExample";
+import DigitalClock from "./Clock/DigitalClock";
+import ComponentA from "./ContextExample/ComponentA";
+import UseRefExample from "./UseRefExample";
 import StopWatch from "./StopWatch/StopWatch";
 
 function App() {
@@ -109,7 +109,13 @@ function App() {
 
   // return <UseRefExample />;
 
-  return <StopWatch />;
+  return (
+    <>
+      <TodoList />
+      <DigitalClock />
+      <StopWatch />
+    </>
+  );
 }
 
 export default App;
